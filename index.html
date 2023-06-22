@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <div class="mainGame">
+        <img src="public/pingPong.jpg" alt="pingPongImage">
+        <div class="gameTitle">Score Keeper</div>
+        <div class="scoreItems">
+        <div class="scoreToScore">
+            <span class="score1">0</span>
+            <span class="toWord">to</span>
+            <span class="score2">0</span>
+        </div>
+            <div>
+                Use the buttons below to keep score.
+            </div>
+            <div class="playingToUI">
+                Playing To
+                <span>
+                    <select name="playTo" id="playTo">
+                        <option value="7">7</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div class="btns">
+            <button class="btnP1">+1 Player One</button>
+            <button class="btnP2">+1 Player Two</button>
+            <button class="btnReset">Reset</button>
+        </div>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
